@@ -16,7 +16,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/artist-api")
-@CrossOrigin("http://localhost:3000/") // Avoid CORS Errors
+@CrossOrigin("http://localhost:8081/") // Avoid CORS Errors
 public class ArtistController {
 
     private final ArtistService artistService;
